@@ -4,14 +4,17 @@ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=inode/directory;
 Actions=launchLiveServer;stopLiveServer;
 X-KDE-Submenu=Open with Live Server
+X-KDE-Submenu[nl]=Openen met live-server
 Icon=www-browser
 
 [Desktop Action launchLiveServer]
 Name=Launch Live Server (PORT: 5555)
+Name[nl]=Live-server starten (POORT: 5555)
 Icon=www-browser
 Exec= go-live-server %u
 
 [Desktop Action stopLiveServer]
 Name=Stop Current Live Server
+Name[nl]=Huidige live-server stopzetten
 Icon=media-playback-stop-symbolic
 Exec= kill go-live-server
