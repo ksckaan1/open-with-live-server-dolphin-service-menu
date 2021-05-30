@@ -35,4 +35,4 @@ OR
 2. type `kill go-live-server` and [ENTER]
 
 ## Important!
-After started a live server, you can't open other directory with live server. As needed you have to stop current live server from service menu (context menu). And 
+After started a live server, you can't open other directory with live server. As needed you have to stop current live server from service menu (context menu). And re-click **Start Live Server (PORT: 5555)**

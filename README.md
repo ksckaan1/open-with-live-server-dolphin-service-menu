@@ -12,7 +12,7 @@ On terminal:
 `./install.sh`
 
 
-##Uninstalling
+## Uninstalling
 On terminal:
 
 `chmod +x ./uninstall.sh`
